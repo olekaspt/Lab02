@@ -49,6 +49,23 @@ Tower 3: 2
 (as  discussed in class)
 									    
 7.	Include in the lab report a screen shot(s) of the output of your tests.
+8. Participation Rubric
+
+Participation rubric of teammates.  List out for your all team members how much they participated.
+```
+	             Member1	Member2	Member3
+Member1 (opinion)	33	     33	     33
+Member2 (opinion)	33	     33	     33
+Member3 (opinion)	33	     33	     33
+```			
+			
+Example 			
+```
+	             Member1	Member2	Member3
+Member1 (opinion)	33	     33	     33
+Member2 (opinion)	20	     40	     40
+Member3 (opinion)	20	     40	     40
+```
 
 ## Lab Submission:
 * lab report pdf of screenshots of the Hanoi game running, show errors being handled and  game being done to completion (don’t need to see exhaustive moves, just good sample)
