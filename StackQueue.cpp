@@ -18,7 +18,7 @@ int ArrayBasedStack::peek() const
 
 }
 
-std::string ArrayBasedQueue::peekFront() const
+std::string ArrayBasedQueue::peek() const
 {
 	if (this->isEmpty())
 	{

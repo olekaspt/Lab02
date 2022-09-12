@@ -148,10 +148,10 @@
 			ASSERT_TRUE(queue.enQueue("2,1,3"));
 			ASSERT_FALSE(queue.isEmpty());
 
-			ASSERT_EQ(std::string("1,1,2"), queue.peekFront());
+			ASSERT_EQ(std::string("1,1,2"), queue.peek());
 			ASSERT_TRUE(queue.deQueue());
 			ASSERT_FALSE(queue.isEmpty());
-			ASSERT_EQ(std::string("2,1,3"), queue.peekFront());
+			ASSERT_EQ(std::string("2,1,3"), queue.peek());
 			ASSERT_TRUE(queue.deQueue());
 			ASSERT_TRUE(queue.isEmpty());
 
@@ -164,19 +164,19 @@
 			ArrayBasedQueue queue;
 			ASSERT_TRUE(queue.isEmpty());
 			ASSERT_TRUE(queue.enQueue("1,1,2"));
-			ASSERT_EQ(std::string("1,1,2"), queue.peekFront());
+			ASSERT_EQ(std::string("1,1,2"), queue.peek());
 			ASSERT_FALSE(queue.isEmpty());
 
 			ASSERT_TRUE(queue.enQueue("2,1,3"));
-			ASSERT_EQ(std::string("1,1,2"), queue.peekFront());
+			ASSERT_EQ(std::string("1,1,2"), queue.peek());
 			ASSERT_FALSE(queue.isEmpty());
 
 			ASSERT_TRUE(queue.enQueue("1,2,3"));
-			ASSERT_EQ(std::string("1,1,2"), queue.peekFront());
+			ASSERT_EQ(std::string("1,1,2"), queue.peek());
 			ASSERT_FALSE(queue.isEmpty());
 
 			ASSERT_TRUE(queue.enQueue("3,1,2"));
-			ASSERT_EQ(std::string("1,1,2"), queue.peekFront());
+			ASSERT_EQ(std::string("1,1,2"), queue.peek());
 			ASSERT_FALSE(queue.isEmpty());
 
 		}
@@ -188,7 +188,7 @@
 			ASSERT_TRUE(queue.isEmpty());
 			try
 			{
-				std::string val = queue.peekFront();
+				std::string val = queue.peek();
 				ASSERT_TRUE(false); // force test failure if this line executes
 			}
 			catch (...)
@@ -211,16 +211,16 @@
 			ASSERT_TRUE(queue.enQueue("3,1,2"));
 			ASSERT_FALSE(queue.isEmpty());
 
-			ASSERT_EQ(std::string("1,1,2"), queue.peekFront());
+			ASSERT_EQ(std::string("1,1,2"), queue.peek());
 			ASSERT_TRUE(queue.deQueue());
 			ASSERT_FALSE(queue.isEmpty());
-			ASSERT_EQ(std::string("2,1,3"), queue.peekFront());
+			ASSERT_EQ(std::string("2,1,3"), queue.peek());
 			ASSERT_TRUE(queue.deQueue());
 			ASSERT_FALSE(queue.isEmpty());
-			ASSERT_EQ(std::string("1,2,3"), queue.peekFront());
+			ASSERT_EQ(std::string("1,2,3"), queue.peek());
 			ASSERT_TRUE(queue.deQueue());
 			ASSERT_FALSE(queue.isEmpty());
-			ASSERT_EQ(std::string("3,1,2"), queue.peekFront());
+			ASSERT_EQ(std::string("3,1,2"), queue.peek());
 			ASSERT_TRUE(queue.deQueue());
 
 			ASSERT_TRUE(queue.isEmpty());

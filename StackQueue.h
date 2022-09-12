@@ -44,7 +44,7 @@ public:
 	virtual bool deQueue() = 0;
 	//If the ADT is empty throw an exception indicating this, otherwise returns the value of the 
 	// front of the Q
-	virtual std::string peekFront() const = 0;
+	virtual std::string peek() const = 0;
 
 	// outputs contents to a string
 	virtual std::string toString() const = 0;
@@ -62,7 +62,7 @@ public:
 	bool enQueue(const std::string &val) override;
 	bool deQueue() override;
 	//If the ADT is empty throw an exception indicating this
-	std::string peekFront() const override;
+	std::string peek() const override;
 	std::string toString() const override;
 private:
 
