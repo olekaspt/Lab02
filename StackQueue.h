@@ -13,7 +13,7 @@ public:
 	// outputs contents to a string
 	virtual std::string toString() const = 0;
 	
-private:
+protected:
 
 };
 
@@ -48,7 +48,7 @@ public:
 
 	// outputs contents to a string
 	virtual std::string toString() const = 0;
-private:
+protected:
 
 };
 
