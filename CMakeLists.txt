@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.10)
 find_package(GTest REQUIRED)
 find_package(Threads REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
-add_compile_options(-std=c++17)  
+add_compile_options(-std=c++20)  
  
 add_library (applibrary SHARED StackQueue.cpp)
  
