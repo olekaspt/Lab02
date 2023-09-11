@@ -8,7 +8,7 @@ Read the introduction to the game at https://en.wikipedia.org/wiki/Tower_of_Hano
 # Tasks
 
 ## Task 0: Get Starter code to comiple and link
-Make the additions required to get the starter project to compile and link (currently it will give unresovled symbols).
+Make the additions required to get the starter project to compile and link (currently it will give unresovled symbols).  VS code will help you generate the stubs for implemention methods.  See demo of VS code doing this (if you missed this in class, hover over the three dots and pick Quick fix, and choose create method in file).
 
 ## Task 1:  Create a stack that will be used as the basis for the remainder of the lab.
 Design a stack using an array, using methods defined in the inteface.
