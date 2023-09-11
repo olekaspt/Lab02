@@ -8,7 +8,7 @@ Read the introduction to the game at https://en.wikipedia.org/wiki/Tower_of_Hano
 # Tasks
 
 ## Task 0: Get Starter code to comiple and link
-Make the additions required to get the starter project to compile.
+Make the additions required to get the starter project to compile and link (currently it will give unresovled symbols).
 
 ## Task 1:  Create a stack that will be used as the basis for the remainder of the lab.
 Design a stack using an array, using methods defined in the inteface.
@@ -23,7 +23,7 @@ Modify the code from Tasks 1 and 2 to store any moves made in the queue class. W
 1.	There will be four disks, and three poles.   Represent the disk by a number, 1 for smallest disk, and so on ….
 2.	It is expected that the students will create their own class to represent the Towers of Hanoi game.   Hint use the stack to represent the towers and keep track of moves in the Queue.   (you can even use that queue to generate a tests, by outputting it to a file)
 3.	Using the queue output at the end of the execution to a file (say temp.txt) all the moves.  This can be then used to test your program as well (see note below about indirection).
-4.	Create a main program that uses stacks to allows the user to interactively play the game.
+4.	Use the  main program provided to allows the user to interactively play the game.
   *	It needs to provide a way for the user to indicate the tower to move from and to.
   *	It needs to prevent illegal moves as defined in the Wikipedia rules.
   *	It needs to provide the user with a way to see their progress on the screen.
