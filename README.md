@@ -18,7 +18,9 @@ Create a queue. Design the queue class using an array to store data.  Include th
 
 
 ## Task 3:  Create a single person version of the “Towers of Hanoi” game with Four disks, three towers.
-	
+
+It is expected you will use the skeleton implementation provided for you in main.cpp.
+
 Represent the towers as a stack. Modify the code to store any moves made in a queue class. When the game is won, the queue should be used to print out all the moves made in order.  Store the values as strings in this format - <disk>,<column from>, <column to>
 1.	There will be four disks, and three poles.   Represent the disk by a number, 1 for smallest disk, and so on ….
 2.	It is expected that the students will create their own class to represent the Towers of Hanoi game.   Hint use the stack to represent the towers and keep track of moves in the Queue.   (you can even use that queue to generate a tests, by outputting it to a file)
