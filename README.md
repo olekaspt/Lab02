@@ -1,5 +1,8 @@
 # Lab02
 
+Must follow standards cited here:
+https://github.com/olekaspt/LabStandards/blob/main/README.md
+
 ## Objective:
 The objective of this Lab is to examine array based stacks and queues built using C++.  We are going to create a stack and a queue to be used in the Towers of Hanoi game.
 
